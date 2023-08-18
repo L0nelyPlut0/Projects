@@ -1,0 +1,30 @@
+Aug 13 07:01:49.994 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Aug 13 07:01:49.994 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56443.
+Aug 13 07:01:50.000 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 13 07:01:50.000 HYPERVISOR: exec_cmd: hypervisor working_dir /home/Billie/GNS3/projects/RealFinalNsp1/project-files/dynamips 
+Aug 13 07:01:50.000 GENERAL: working_dir=/home/Billie/GNS3/projects/RealFinalNsp1/project-files/dynamips
+Aug 13 07:01:50.001 HYPERVISOR: exec_cmd: hypervisor working_dir /home/Billie/GNS3/projects/RealFinalNsp1/project-files/dynamips/fe2122c6-c0d1-45be-b0cc-dc6529310b72 
+Aug 13 07:01:50.001 GENERAL: working_dir=/home/Billie/GNS3/projects/RealFinalNsp1/project-files/dynamips/fe2122c6-c0d1-45be-b0cc-dc6529310b72
+Aug 13 07:01:50.001 HYPERVISOR: exec_cmd: vm create Router1 1 c3725 
+Aug 13 07:01:50.001 VM: VM Router1 created.
+Aug 13 07:01:50.002 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router1 5015 
+Aug 13 07:01:50.002 HYPERVISOR: exec_cmd: c3725 get_mac_addr Router1 
+Aug 13 07:01:50.003 HYPERVISOR: exec_cmd: vm set_disk0 Router1 0 
+Aug 13 07:01:50.003 HYPERVISOR: exec_cmd: vm get_status Router1 
+Aug 13 07:01:50.004 HYPERVISOR: exec_cmd: vm set_idle_pc Router1 0x60bf8ba0 
+Aug 13 07:01:50.004 HYPERVISOR: exec_cmd: vm set_ios Router1 /home/Billie/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 13 07:01:50.005 HYPERVISOR: exec_cmd: c3725 set_mac_addr Router1 c201.5e67.0000 
+Aug 13 07:01:50.005 HYPERVISOR: exec_cmd: vm set_nvram Router1 256 
+Aug 13 07:01:50.006 HYPERVISOR: exec_cmd: vm get_status Router1 
+Aug 13 07:01:50.006 HYPERVISOR: exec_cmd: vm slot_add_binding Router1 1 0 NM-1FE-TX 
+Aug 13 07:01:50.006 HYPERVISOR: exec_cmd: vm get_status Router1 
+Aug 13 07:01:50.007 HYPERVISOR: exec_cmd: vm slot_add_binding Router1 2 0 NM-1FE-TX 
+Aug 13 07:01:50.801 HYPERVISOR: exec_cmd: nio create_udp udp-bad57981-2270-4841-a61e-48b1ec5c4b1f 10004 127.0.0.1 10005 
+Aug 13 07:01:51.012 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 0 0 udp-bad57981-2270-4841-a61e-48b1ec5c4b1f 
+Aug 13 07:01:51.012 HYPERVISOR: exec_cmd: vm get_status Router1 
+Aug 13 07:01:51.091 HYPERVISOR: exec_cmd: nio create_udp udp-b49472c3-dab9-4c9c-9318-fc8838350f47 10008 127.0.0.1 10009 
+Aug 13 07:01:51.093 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 0 1 udp-b49472c3-dab9-4c9c-9318-fc8838350f47 
+Aug 13 07:01:51.094 HYPERVISOR: exec_cmd: vm get_status Router1 
+Aug 13 07:01:51.733 HYPERVISOR: exec_cmd: nio create_udp udp-ac7c02c2-ed81-4170-acb9-50d118b0ee36 10022 127.0.0.1 10023 
+Aug 13 07:01:51.735 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 1 0 udp-ac7c02c2-ed81-4170-acb9-50d118b0ee36 
+Aug 13 07:01:51.735 HYPERVISOR: exec_cmd: vm get_status Router1 
