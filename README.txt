@@ -1,7 +1,53 @@
-Massey Special Permission portfolio-
+Welcome to my projects repo! 
+These were made from mid 2022 until currently August 2023 (I will likely add more as I make more).
 
-The files in this portfolio are to demonstrate my pervious knowledge for programming. I have completed CS50 earlier this year (2022) and have attached a few of the labs and problem set projects from that course in this portfolio. I have also added a description of each project as well as its usage if you would like to run it yourself.
-NOTE: These projects were written in VS code on Linux and BASH used as the terminal. A few system commands may not work on your OS (eg: os.system('clear')).
+The projects here are sorted into language:
+
+        - Android (Java):
+                - Workout app:
+                        - This was made in semester break of 2023, to help me better prepare for my app development course in semester 2 of 2023.
+                        - A app that shows the user some workouts. The user can click on workouts and the details will be displayed along with a                                   stopwatch fragment the user can time themself with.
+                        - this app works well on both phones and tablets and the display adjusts to each accordingly. 
+
+        - C++:
+                - hotelManager.cpp:
+                        - This was made mid 2022, to help me better understand c++ and a small amount of OOP. 
+                        - This is a terminal based c++ file that allows the user to manage a hotel. The user can set up rooms, their cost and set                                   different options for each room. Different rooms can be set as booked out, and the user can also search if a specific room is                             free. 
+                        - This project has an extra custom header file called 'hotleManager.h' to allow for some extra methods to work.
+
+        - C:
+                - caesar.c:
+                        - This file was made while I was studying cs50 in mid 2022.
+                        - This file scrambles a word based on a user inputted number key. This moves all of the letters of                                                        your inputted phrase either forward or backward in the alphabet (as you can input positive or negative numbers) and then                                 prints out the coded message.
+                         - eg: 
+                                - enter into terminal after compilation './caesar 3' and your scrambled text will be displayed int the terminal.
+                                        - key = 3, plaintext = 'Hello, World!", and scrambled output = 'Khoor, Zruog!"
+
+                - runoff.c:
+                        - This was also made mid 2022 when I was studying cs50. 
+                        - This file simulates a run off election using candidates which the user inputs. It then asks for the amount of voters in the                              election and will run through all the inputted candidates for each voter and ask for the voters preference on the candidates.                            It will then calculate the winner of the election (unless there is a draw, it will the output a draw) and output the winner.
+
+                - scrabble.c:
+                        - This was also made mid 2022 while I was studying cs50. 
+                        - This file takes in 2 words from 2 players. It then scores them against the letter scoring in the game 'Scrabble' and displays                             the winner with the most points. In this program there is error checking to ensure that the that the players are entering                                 single words only.
+
+        - CyberSecurity:
+                - This folder is a collection of scripts made to help me learn about some cyber security things in July of 2023.
+
+                - PortScanner:
+                        - This python script is a port scanner which takes in an ip address, the ports wanted to scan, and the time limit for each port.
+                        - It goes through all the specified ports in the range and checks if they are open. Printing any open ports out to the terminal.
+                        - This script has been made to run a little faster using mutlithreading as when I was not using it and scanning a larger port                               range it was a little slower on my laptop.
+
+                - WireSharkGeoTracker:
+                        - This is a simple python script that uses packet capturing in WireShark to get the source location of packets captured and                                prints them out to the terminal as they are captured.
+
+                - dictPasswordCracker:
+                        - This is a folder with a 2 scripts and 2 txt files.
+                        - The txt files are a list of 10 million most common passwords and a list of hashed values for these passwords.
+                        - The hashed_values.txt can be remade again using hashMaker.py. Which takes in the 10-million-password-list-top-100000000.txt                              and uses a few different hashing algorithms to hash them all randomly each time.
+                        - dictCracker.py cn then be run, this takes a random hashed value from hashed_values.txt and un-hasehes them, then compares                                them to the list of 10 million passwords until a match is found. Printing out the password, the hashing algorithm used and the                           hash value. 
+                
 
 The projects in this portfolio are as follows:
 
@@ -18,22 +64,6 @@ The projects in this portfolio are as follows:
                     womans football). Argc is needed to run the program, otherwise you
                      will be prompted to input it again and again until you input the
                       correct information.
-
-        - dna.py:
-            - About:
-                - This program will simulate a DNA sequence check (like what police
-                 do) counting the repeats of a STR for the found dna sample and try 
-                 to match it to a DNA database containing a list of (made-up) people 
-                 and a segment of the STRs. Once the database is checked if a match is
-                  found the program with display the matched name, if not then the 
-                  program will output that no match has been found in the database.
-            - Usage:
-                - This project has 2 extra folders containing a few different sized csv
-                 sequence and database files which are both required after the file name
-                  to run the program.
-                - Enter this into the terminal to run the program: 'python dna.py 
-                  databases/small.csv sequences/2.txt' (there are many different files,
-                   so other combinations of sequences and database files work)
 
         - runner game (folder) and RunningMan.py files:
             - About:
@@ -61,16 +91,6 @@ The projects in this portfolio are as follows:
                 - You will get a game over screen if an enemy hits the player, and your 
                 score will be displayed.
 
-        - inheritance.c:
-            -About:
-                - This program simulates the inheritance of blood types in a family of 3
-                 generations and then displays the output to the user. Using linked list
-                  in C to move from grandparent, parent and child to generate an 
-                  inherited blood type based on the 2 parents alleles to simulate the 
-                  passing of a blood type.
-            - Usage:
-                -Run in the terminal ./inheritance after compilation.
-
         - runoff.c:
             - About:
                 - This program simulates a run off election using candidates which the
@@ -85,54 +105,3 @@ The projects in this portfolio are as follows:
                   prompted to enter your number of voters and each voter will then get
                    to type the name of their preferred candidate in descending order.
 
-        - caesar.c:
-            - About:
-                - This program is a simple one which scrambles a word based on a user
-                 inputted number key. This moves all of the letters of your inputted 
-                 phrase either forward or backward in the alphabet (as you can input 
-                 positive or negative numbers) and then prints out the coded message- 
-                 producing a phrase or a larger amount of text which can only be 
-                 de-scrambled if the reader knows the inputted user key.
-            - Usage:
-                - This program will takes in user number key first, then it prompts for
-                 plaintext and will out put the scrambled text.
-                - enter into terminal after compilation './caesar 3' and your scrambled
-                 text will be displayed int the terminal.
-                - eg: key = 3, plaintext = 'Hello, World!", and scrambled output = 
-                'Khoor, Zruog!"
-
-        - scrabble.c:
-            - About:
-                - This was one of the very first problem sets I completed for CS50. It 
-                is a simple program that takes in 2 words from 2 players. It then scores
-                 them against the letter scoring in the game 'Scrabble' and displays the
-                  winner with the most points. In this program there is error checking
-                   to ensure that the that the players are entering single words only.
-            - Usage:
-             -  run './scrabble' in the terminal after compilation. Then enter the word
-              for player 1 followed by a word for player 2 and the winner (or a tie) will
-               be displayed.
-
-        - hotelManager.cpp:
-            - About:
-                - This is a software program that manages rooms and customers of a hotel. 
-                It is made with a lot of OOP and many different classes and functions for 
-                different tasks and features a manager would need to run a hotel. Rooms can be 
-                added and their features can be set, customers can then check in and out of 
-                created rooms.
-                - The manager can also search for rooms and see if another customer has 
-                already booked it out.
-                - There is a main menu and submenus based off of user inputted choice.
-                - This software is what I wanted to make to improve my knowledge of C++
-                 and OOP and it was a great way to learn more about them.
-            - Usage:
-                - This software is very easy to use as it has a clear menu with a list 
-                of options to select to navigate through the management system.
-                - run the file by entering './hotelManager' into the terminal after 
-                compilation.
-                - Then you need to add a new room to your hotel before booking in 
-                customers, this can be done by entering '1' to enter the 'manage rooms'
-                 menu, then adding a room using the displayed menu number and following the
-                  prompts to describe the features of the room.
-                - once at least one room has been added the other options of booking
-                 customers, or searching rooms will be accessible from the main menu.
