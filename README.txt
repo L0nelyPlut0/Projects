@@ -3,30 +3,31 @@ These were made from mid 2022 until currently August 2023 (I will likely add mor
 
 The projects here are sorted into language:
 
-        - Android (Java):
-                - Workout app:
-                        - This was made in semester break of 2023, to help me better prepare for my app development course in semester 2 of 2023.
-                        - A app that shows the user some workouts. The user can click on workouts and the details will be displayed along with a stopwatch fragment the user can time themself with.
-                        - this app works well on both phones and tablets and the display adjusts to each accordingly. 
+Android (Java):
+     - Workout app:
+        This was made in semester break of 2023, to help me better prepare for my app development course in semester 2 of 2023.
+        A app that shows the user some workouts. The user can click on workouts and the details will be displayed along with a 
+        stopwatch fragment the user can time themself with.
+        this app works well on both phones and tablets and the display adjusts to each accordingly. 
 
 
-        - C++:
-                - hotelManager.cpp:
-                        - This was made mid 2022, to help me better understand c++ and a small amount of OOP. 
-                        - This is a terminal based c++ file that allows the user to manage a hotel. The user can set up rooms, their cost and set different options for each room. 
-                        - Different rooms can be set as booked out, and the user can also search if a specific room is free. 
-                        - This project has an extra custom header file called 'hotleManager.h' to allow for some extra methods to work.
+C++:
+    - hotelManager.cpp:
+        This was made mid 2022, to help me better understand c++ and a small amount of OOP. 
+        This is a terminal based c++ file that allows the user to manage a hotel. The user can set up rooms, their cost and set different options for each room. 
+        Different rooms can be set as booked out, and the user can also search if a specific room is free. 
+        This project has an extra custom header file called 'hotleManager.h' to allow for some extra methods to work.
 
 
-        - C:
-                - caesar.c:
-                        - This file was made while I was studying cs50 in mid 2022.
-                        - This file scrambles a word based on a user inputted number key. 
-                        - This moves all of the letters of your inputted phrase either forward or backward in the alphabet (as you can input positive or negative numbers) 
-                        - and then prints out the coded message.
-                        - eg: 
-                                - enter into terminal after compilation './caesar 3' and your scrambled text will be displayed int the terminal.
-                                        - key = 3, plaintext = 'Hello, World!", and scrambled output = 'Khoor, Zruog!"
+C:
+     - caesar.c:
+        This file was made while I was studying cs50 in mid 2022.
+        This file scrambles a word based on a user inputted number key. 
+        This moves all of the letters of your inputted phrase either forward or backward in the alphabet 
+        (as you can input positive or negative numbers) and then prints out the coded message.
+        eg: 
+         enter into terminal after compilation './caesar 3' and your scrambled text will be displayed int the terminal.
+         key = 3, plaintext = 'Hello, World!", and scrambled output = 'Khoor, Zruog!"
 
                 - runoff.c:
                         - This was also made mid 2022 when I was studying cs50. 
