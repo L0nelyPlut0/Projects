@@ -5,18 +5,21 @@ The projects here are sorted into language:
 
 Android (Java):
      - Workout app:
-        This was made in semester break of 2023, to help me better prepare for my app development course in semester 2 of 2023.
-        A app that shows the user some workouts. The user can click on workouts and the details will be displayed along with a 
-        stopwatch fragment the user can time themself with.
+        This was made in semester break of 2023, to help me better prepare for my app development course in 
+        semester 2 of 2023.
+        A app that shows the user some workouts. The user can click on workouts and the details will be displayed 
+        along with a stopwatch fragment the user can time themself with.
         this app works well on both phones and tablets and the display adjusts to each accordingly. 
 
 
 C++:
     - hotelManager.cpp:
         This was made mid 2022, to help me better understand c++ and a small amount of OOP. 
-        This is a terminal based c++ file that allows the user to manage a hotel. The user can set up rooms, their cost and set different options for each room. 
+        This is a terminal based c++ file that allows the user to manage a hotel. The user can set up rooms,
+        their cost and set different options for each room. 
         Different rooms can be set as booked out, and the user can also search if a specific room is free. 
-        This project has an extra custom header file called 'hotleManager.h' to allow for some extra methods to work.
+        This project has an extra custom header file called 'hotleManager.h' to allow for some extra methods 
+        to work.
 
 
 C:
