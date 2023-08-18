@@ -63,28 +63,29 @@ CyberSecurity:
 
      - dictPasswordCracker:
         This is a folder with a 2 scripts and 2 txt files.
-        The txt files are a list of 10 million most common passwords and a list of hashed values for these passwords.
+        The txt files are a list of 10 million most common passwords and a list of hashed values for these 
+        passwords.
         The hashed_values.txt can be remade again using hashMaker.py. Which takes in 
         10-million-password-list-top-100000000.txt and uses different hashing algorithms to hash them all 
         randomly each time.
         dictCracker.py cn then be run, this takes a random hashed value from hashed_values.txt and un-hasehes them, 
-        then compares them to the list of 10 million passwords until a match is found. Printing out the password, 
-        the hashing algorithm used and the hash value. 
+        then compares them to the list of 10 million passwords until a match is found. Printing out the 
+        password, the hashing algorithm used and the hash value. 
 
 Java:
   These 2 folders are from mid 2023, when I was studying OOP at univerity.
 
      - ComputerStoreSwingGUI:
         This folder is a GUI for a computer store using swing.
-        When run it propts the user to log in (there is not create user functionality currently, just already created 
-        users: 'm1','m2', 'p1', p2', 'p3'. The passwords are the user names respectively).
-        The gui is different for managers and salespersons, allowing for managers to have more functions in actually 
-        changing things.
+        When run it propts the user to log in (there is not create user functionality currently, just already 
+        created users: 'm1','m2', 'p1', p2', 'p3'. The passwords are the user names respectively).
+        The gui is different for managers and salespersons, allowing for managers to have more functions in 
+        actually changing things.
         A list of deveices is displayed in a table and the user can click on them to view that specific device.
-        If the user is a manager ('m1' or 'm2) they can edit specific devices by clicking on them in the table, or they 
-        can add a new device which is added to the end of the table.
-        The user can sort the table by device type and category, or choose to display different categories and types 
-        based on selected filters. 
+        If the user is a manager ('m1' or 'm2) they can edit specific devices by clicking on them in the table, or 
+        they can add a new device which is added to the end of the table.
+        The user can sort the table by device type and category, or choose to display different categories and 
+        types based on selected filters. 
 
      - LibraryCatalogue:
         This folder is a terminal based Java program which displays a list of items (movies, books and journals) 
@@ -96,7 +97,8 @@ Java:
 
 Networking:
      This folder contains a sub net network configuration made in GNS3.
-     It shows a subnetted network with 4 routers, 4 subnets all with different user capacity and 4 VPCs in each subnet. 
+     It shows a subnetted network with 4 routers, 4 subnets all with different user capacity and 4 VPCs in each 
+     subnet. 
      All routers can ping eachother, as well as all VPCs. 
      This project was made to help me get a better understanding of IP addresses, allocating them and how 
      to subnet and IP address. 
