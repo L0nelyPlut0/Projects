@@ -95,15 +95,6 @@ Java:
         The user can search for a specific title, rent it out, return it and rate it.
 
 
-Networking:
-     This folder contains a sub net network configuration made in GNS3.
-     It shows a subnetted network with 4 routers, 4 subnets all with different user capacity and 4 VPCs in each 
-     subnet. 
-     All routers can ping eachother, as well as all VPCs. 
-     This project was made to help me get a better understanding of IP addresses, allocating them and how 
-     to subnet and IP address. 
-
-
 Python:
 
        - Runner game- pygames intro:
