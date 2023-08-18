@@ -36,8 +36,8 @@ C:
       This was also made mid 2022 when I was studying cs50. 
       This file simulates a run off election using candidates which the user inputs. It then asks for the amount
       of voters in the election and will run through all the inputted candidates for each voter and ask for the 
-      voters preference on the candidates. It will then calculate the winner of the election (unless there is a draw, 
-      it will the output a draw) and output the winner.
+      voters preference on the candidates. It will then calculate the winner of the election 
+      (unless there is a draw, it will the output a draw) and output the winner.
 
      - scrabble.c:
       This was also made mid 2022 while I was studying cs50. 
@@ -107,12 +107,12 @@ Networking:
 Python:
 
        - Runner game- pygames intro:
-          This folder is a simiple side scrolling runner game I made towards the end of 2022 to help me learn Python 
-          and some pygames.
+          This folder is a simiple side scrolling runner game I made towards the end of 2022 to help me learn 
+          Python and some pygames.
           This project was really helpful in me learning Python and OOP, and it was fun to make.
           The game opens on a start screen where the user is prompted to press spacebar.
-          Once spacebar is pressed the game starts and the music starts, the character starts running across the screen 
-          and enemies move towards them from the left.
+          Once spacebar is pressed the game starts and the music starts, the character starts running 
+          across the screen and enemies move towards them from the left.
           The player needs to press spacebar to jump over the enemies and to increase their score. 
           Once the player hits an enemy the game ends and the final score is displayed. 
           The game can be replayed and the player can try and beat their last score. 
