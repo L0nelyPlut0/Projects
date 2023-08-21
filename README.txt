@@ -13,9 +13,9 @@ The projects here are sorted into language:
 
 ## Android (Java):
 - **Workout app:**
-    - This was made in the semester break of 2023, to help me  learn andorid development. 
-    - Displays workouts, details, and stopwatch.
-    - Works well on phones and tablets, adapting to each screen.
+    <p>This was made in the semester break of 2023, to help me  learn andorid development. <br>
+       Displays workouts, details, and stopwatch. <br>
+       Works well on phones and tablets, adapting to each screen. </p>
 
 ## C++:
 &nbsp;**hotelManager.cpp:**
