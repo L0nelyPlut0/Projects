@@ -7,7 +7,8 @@ The projects here are sorted into language:
 ## Android (Java):
 - Workout app:
     * This was made in semester break of 2023, to help me better prepare for my app development course in semester 2 of 2023.
-    * An app that shows the user some workouts. The user can click on workouts and the details will be displayed along with a stopwatch fragment the user can time themself with.
+    * An app that shows the user some workouts. 
+    * The user can click on workouts and the details will be displayed along with a stopwatch fragment the user can time themself with.
     * This app works well on both phones and tablets and the display adjusts to each accordingly.
 
 ## C++:
@@ -55,17 +56,14 @@ This folder is a collection of scripts made to help me learn about some cyber se
     The hashed_values.txt can be remade again using hashMaker.py. Which takes in 10-million-password-list-top-100000000.txt and
     uses different hashing algorithms to hash them all randomly each time.
     dictCracker.py can then be run, this takes a random hashed value from hashed_values.txt and un-hashes them,
-    then compares them to the list of 10 million passwords until a match is found. Printing out the password, the hashing algorithm used and the hash value.
+    then compares them to the list of passwords. Printing out the password, the hashing algorithm used and the hash value.
 
 ## Java:
 These 2 folders are from mid 2023, when I was studying OOP at university.
 - ComputerStoreSwingGUI:
     This folder is a GUI for a computer store using swing.
-    When run it prompts the user to log in (there is not create user functionality currently, just already created users: 'm1','m2', 'p1', p2', 'p3'.
-    The passwords are the user names respectively).
     The GUI is different for managers and salespersons, allowing managers to have more functions in actually changing things.
     A list of devices is displayed in a table and the user can click on them to view that specific device.
-    If the user is a manager ('m1' or 'm2), they can edit specific devices by clicking on them in the table, or they can add a new device which is added to the end of the table.
     The user can sort the table by device type and category, or choose to display different categories and types based on selected filters.
 - LibraryCatalogue:
     This folder is a terminal-based Java program that displays a list of items (movies, books, and journals) from a supplied txt file.
@@ -77,11 +75,11 @@ These 2 folders are from mid 2023, when I was studying OOP at university.
     This folder is a simple side-scrolling runner game I made towards the end of 2022 to help me learn Python and some Pygame.
     This project was really helpful in me learning Python and OOP, and it was fun to make.
     The game opens on a start screen where the user is prompted to press the spacebar.
-    Once spacebar is pressed, the game starts, and the music starts, the character starts running across the screen and enemies move towards them from the left.
+    Once spacebar is pressed, the game starts, and the music starts, the character runs, enemies run from right.
     The player needs to press the spacebar to jump over the enemies and to increase their score.
     Once the player hits an enemy, the game ends, and the final score is displayed.
     The game can be replayed, and the player can try to beat their last score.
 - tournament:
     This project was made while I was studying cs50 in 2022.
-    This project runs a simulation of the FIFA World Cup using CSV files with real-world data on different countries winning statistics.
+    This project runs a simulation of the FIFA World Cup using CSV files with real-world data.
     The program simulates 1000 tournaments and then displays the % chance each country is likely to win the tournament.
