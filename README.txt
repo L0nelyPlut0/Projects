@@ -4,13 +4,19 @@ These were made from mid 2022 until currently August 2023 (I will likely add mor
 
 The projects here are sorted into language:
 
+
+# Welcome to my projects repo!
+
+These were made from mid 2022 until currently August 2023 (I will likely add more as I make more).
+
+The projects here are sorted into language:
+
 ## Android (Java):
-&nbsp;&nbsp;**Workout app:**
-&nbsp;&nbsp;&nbsp;This was made in the semester break of 2023, to help me better prepare for my app development course in semester 2 of 2023.
-&nbsp;&nbsp;&nbsp;An app that shows the user some workouts.
-&nbsp;&nbsp;&nbsp;The user can click on workouts and the details will be displayed along with a stopwatch. 
-&nbsp;&nbsp;&nbsp;This app works well on both phones and tablets, and the display adjusts to each accordingly.
-&nbsp;&nbsp;&nbsp;
+- **Workout app:**
+    - This was made in the semester break of 2023, to help me  learn andorid development. 
+    - Displays workouts, details, and stopwatch.
+    - Works well on phones and tablets, adapting to each screen.
+
 ## C++:
 &nbsp;**hotelManager.cpp:**
 &nbsp;&nbsp;&nbsp;This was made mid 2022, to help me better understand C++ and a small amount of OOP.
