@@ -4,13 +4,11 @@ These were made from mid 2022 until currently August 2023 (I will likely add mor
 
 The projects here are sorted into language:
 
-## Android (Java):
-- Workout app:
-  This was made in semester break of 2023, to help me better prepare for my app development course in 
-  semester 2 of 2023.
-  A app that shows the user some workouts. The user can click on workouts and the details will be displayed 
-  along with a stopwatch fragment the user can time themself with.
-  this app works well on both phones and tablets and the display adjusts to each accordingly.
+  Android (Java):
+  - Workout app:
+    - This was made in semester break of 2023, to help me better prepare for my app development course in semester 2 of 2023.
+    - A app that shows the user some workouts. The user can click on workouts and the details will be displayed along with a stopwatch fragment the user can time themself with. 
+    - This app works well on both phones and tablets and the display adjusts to each accordingly.
 
 ## C++:
 - hotelManager.cpp:
