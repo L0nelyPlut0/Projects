@@ -67,13 +67,13 @@ This folder is a collection of scripts made to help me learn about some cybersec
 ## Java:
 These 2 folders are from mid 2023, when I was studying OOP at the university.
 
-- **ComputerStoreSwingGUI:**
+- **ComputerStoreGUI:**
     - This folder is a GUI for a computer store using swing.
     - The GUI is different for managers and salespersons, allowing managers to have more functions in actually changing things.
     - A list of devices is displayed in a table and the user can click on them to view that specific device.
     - The user can sort the table by device type and category, or choose to display different categories and types based on selected filters.
       
-- **LibraryCatalogue:**
+- **LibraryCatalogueDisplay:**
     - This folder is a terminal-based Java program that displays a list of items (movies, books, and journals) from a supplied txt file.
     - The user can navigate through the menu by typing in commands. The list can be sorted based on rating and title.
     - The user can search for a specific title, rent it out, return it, and rate it.
